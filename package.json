@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/inmessi/GiftEasy#readme",
   "dependencies": {
+    "create-react-app": "^5.0.1",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "mongoose": "^6.5.4"
