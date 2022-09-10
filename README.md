@@ -9,4 +9,5 @@ And to make changes to your repository type:
 $ git push -u origin main
 ```
 
-Aditya added
+Backend has been implemented. Now we have to implement the frontend ui only 
+
