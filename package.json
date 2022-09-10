@@ -4,7 +4,8 @@
   "description": "Ecommerce website for sending gifts ",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node backend/index.js",
+    "test": "node backend/index.js"
   },
   "repository": {
     "type": "git",
