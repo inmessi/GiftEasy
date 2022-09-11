@@ -3,7 +3,7 @@ import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import suddhasil from "../../../images/suddhasil.png";
+import ownerprofile from "../../../images/ownerprofile.png";
 const About = () => {
   const visitInstagram = () => {
     window.location = "https://instagram.com/";
@@ -18,7 +18,7 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src={suddhasil}
+              src={ownerprofile}
               alt="Founder"
             />
             <Typography>Suddhasil Chatterjee</Typography>
