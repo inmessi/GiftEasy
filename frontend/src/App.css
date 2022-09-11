@@ -3,10 +3,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  cursor: url("./images/cursor.png"), auto;
-}
-
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -22,6 +18,16 @@ input[type="number"] {
 .greenColor {
   color: green !important;
 }
+
 .redColor {
   color: red !important;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-dark{
+  background-color: FF867D;
 }
