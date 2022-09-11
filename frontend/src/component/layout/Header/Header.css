@@ -9,3 +9,20 @@
   height: 56px;
   border-radius: 100%;
 }
+
+.navbar{
+  --bs-navbar-padding-y: 0px;
+  --bs-navbar-nav-link-padding-x: 1rem;
+}
+
+.nav-link{
+  font-size: 19.5px;
+  color: aliceblue;
+}
+
+
+.container{
+  margin: 0px;
+  padding: 0px;
+  width:95vw;
+}
