@@ -27,7 +27,7 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="GiftEasy" />
+          <MetaData title="GiftEasy | Best Online Customised Gift Shop in India" />
 
           <div className="banner">
             <p>Welcome to GiftEasy</p>
