@@ -21,6 +21,7 @@
 .banner > p {
   color: snow;
   position: relative;
+  top: 4vh;
   font: 700 2.1vmax "Lucida Sans";
 }
 
