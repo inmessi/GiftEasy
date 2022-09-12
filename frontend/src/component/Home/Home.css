@@ -73,7 +73,14 @@
   max-width: 100%;
 }
 
+#container{
+  background-color: #f4f0eb;
+}
+
 .productCard {
+  border: 1px solid black;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
   width: 14vmax;
   display: flex;
   flex-direction: column;
@@ -82,10 +89,11 @@
   margin: 2vmax;
   transition: all 0.5s;
   padding-bottom: 0.5vmax;
+  background-color: #f8f7f4;
 }
 
 .productCard > img {
-  width: 14vmax;
+  width: 13.8vmax;
 }
 
 .productCard > div {
