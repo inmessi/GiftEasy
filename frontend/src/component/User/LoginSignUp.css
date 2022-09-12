@@ -12,12 +12,15 @@
 }
 
 .LoginSignUpBox {
-  background-color: white;
-  width: 25vw;
-  height: 70vh;
-  box-sizing: border-box;
-  overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 80px;
 }
+
 .login_signUp_toggle {
   display: flex;
   height: 3vmax;
