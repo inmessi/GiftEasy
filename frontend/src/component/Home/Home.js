@@ -31,7 +31,7 @@ const Home = () => {
 
           <div className="banner">
             <p>Welcome to GiftEasy</p>
-            <h1>FIND AMAZING PRODUCTS BELOW</h1>
+            <h1>FIND AMAZING GIFTS BELOW</h1>
 
             <a href="#container">
               <button>
