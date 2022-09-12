@@ -19,6 +19,8 @@
 }
 
 .banner > p {
+  position: relative;
+  bottom: 3vh;
   font: 300 1.4vmax "Lucida Sans";
 }
 
