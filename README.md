@@ -6,7 +6,7 @@
 - MongoDB (for storing database data)
 
 In order to use this repo, first clone this repository. <br/>
-The next steps need to be followerd:
+The next steps need to be followed:
 1. We have to install all the dependencies under package.json outside the backend folder. We can do this by typing the following in terminal:
 ```$ npm i ```
 
