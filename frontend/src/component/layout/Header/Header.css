@@ -11,6 +11,9 @@
 }
 
 .navbar{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
   --bs-navbar-padding-y: 0px;
   --bs-navbar-nav-link-padding-x: 1rem;
 }
