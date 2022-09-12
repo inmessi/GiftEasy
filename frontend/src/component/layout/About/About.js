@@ -6,7 +6,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import ownerprofile from "../../../images/ownerprofile.png";
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/";
+    window.location = "https://www.instagram.com/chatterjeesuddhasil/";
   };
   return (
     <div className="aboutSection">
@@ -29,6 +29,7 @@ const About = () => {
               Gift Item Seller
             </span>
           </div>
+         
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
