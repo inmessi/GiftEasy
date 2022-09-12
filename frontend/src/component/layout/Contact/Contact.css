@@ -26,3 +26,9 @@
     transform: translateX(0);
   }
 }
+
+.contactno{
+  position: relative;
+  bottom:20vw;
+  color:#575454;
+}
