@@ -1,5 +1,5 @@
 .banner {
-  background-image: url("../../images/cover.jfif");
+  background-image: linear-gradient(rgba(239, 70, 70, 0.43),rgba(51, 68, 197, 0.43)),url("../../images/cover.jfif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
 
 .banner > p {
   position: relative;
-  bottom: 3vh;
+  bottom: 18vh;
   font: 300 1.4vmax "Lucida Sans";
 }
 
@@ -48,7 +48,7 @@
   position: absolute;
   top: 0%;
   left: 0;
-  clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+  clip-path: polygon(100% 100%, 0 100%, 100% 100%);
   max-width: 100%;
 }
 
