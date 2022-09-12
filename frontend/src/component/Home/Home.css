@@ -19,9 +19,10 @@
 }
 
 .banner > p {
+  color: snow;
   position: relative;
-  bottom: 18vh;
-  font: 300 1.4vmax "Lucida Sans";
+  top: 10vh;
+  font: 700 2vmax "Lucida Sans";
 }
 
 .banner > a > button {
