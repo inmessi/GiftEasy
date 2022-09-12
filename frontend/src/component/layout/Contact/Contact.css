@@ -4,8 +4,9 @@
   max-width: 100%;
   display: grid;
   place-items: center;
-  background-color: white;
+  background-color: rgb(250, 225, 235);
   position: fixed;
+
 }
 
 .mailBtn {
@@ -27,8 +28,9 @@
   }
 }
 
-.contactno{
+/*.contactno{
   position: relative;
   bottom:20vw;
   color:#575454;
 }
+*/
