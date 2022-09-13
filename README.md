@@ -19,3 +19,13 @@ The next steps need to be followed:
 
 We have also hosted the website in heroku. 
 
+### How to make changes to your local system from the repo and vice-versa:
+1. Make changes from repo to your local system 
+``` $ git pull remote_name branch_name ```
+2. Make changes from local system to your repo
+```sh
+$ git add . 
+$ git commit -am 'done'
+$ git push -u origin main 
+```
+
