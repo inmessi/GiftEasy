@@ -110,7 +110,7 @@ const Products = ({ match }) => {
                 aria-labelledby="continuous-slider"
                 valueLabelDisplay="auto"
                 min={0}
-                max={5}
+                max={4}
               />
             </fieldset>
           </div>
