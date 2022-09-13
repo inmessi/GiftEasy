@@ -4,14 +4,14 @@ import { Button } from "@material-ui/core";
 
 const Contact = () => {
   return (
+      <body>
     <div className="contactContainer">
       <a className="mailBtn" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNqLMmkVvSMwrdnQwlvXVpzFdpDXfFlKzbxLvxxtLJSDHKrwfMLwpxvdphxvCkddWMhmjV">
-        <Button>Email address: csuddhasil@gmail.com</Button>
+        <Button>Email address: csuddhasil@gmail.com</Button><br/>
+        <Button>  Contact Number: 9874835785</Button>
       </a>
-      <div className="contactno">
-        <h1>Contact Number: 9874835785</h1>
-      </div>
-    </div>
+   </div>
+      </body>
   );
 };
 
