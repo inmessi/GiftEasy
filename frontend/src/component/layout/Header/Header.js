@@ -5,8 +5,11 @@ import logo from "../../../images/logo.png";
 import {BsFillCartDashFill} from "react-icons/bs";
 import {BsPersonCircle} from "react-icons/bs";
 import {BsSearch} from "react-icons/bs";
+import {useSelector } from 'react-redux'
+
 
 function Header() {
+  const { isAuthenticated} = useSelector((state) => state.user);
   return (
     <Navbar collapseOnSelect expand="lg" style={{backgroundColor:"#e66470"}} variant="dark">
       <Container>
@@ -30,7 +33,7 @@ function Header() {
           <Nav>
             <Nav.Link href="Search">Search <BsSearch/> </Nav.Link>
             <Nav.Link href="cart">Cart <BsFillCartDashFill/>  </Nav.Link>
-            <Nav.Link href="login">Account <BsPersonCircle/> </Nav.Link>
+            <Nav.Link href="login">Account {!isAuthenticated && <BsPersonCircle/>} </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
