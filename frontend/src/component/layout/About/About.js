@@ -8,6 +8,9 @@ const About = () => {
   const visitInstagram = () => {
     window.location = "https://www.instagram.com/chatterjeesuddhasil/";
   };
+  const visitLinkedin = () => {
+      window.location = "https://www.linkedin.com/in/suddhasilchatterjee/";
+  }
   return (
     <div className="aboutSection">
       <div></div>
@@ -22,9 +25,14 @@ const About = () => {
               alt="Founder"
             />
             <Typography>Suddhasil Chatterjee</Typography>
+      <span>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
+            <Button onClick={visitLinkedin} color="primary">
+                Visit Linkedin
+            </Button>
+      </span>
             <span>
               Gift Item Seller
             </span>
