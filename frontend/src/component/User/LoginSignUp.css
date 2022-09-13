@@ -12,7 +12,7 @@
 }
 
 .LoginSignUpBox {
-<<<<<<< HEAD
+
   position: relative;
   background-color: #fff;
   width: 25vw;
@@ -20,7 +20,7 @@
   box-sizing: border-box;
   overflow: hidden;
   top: 80px;
-=======
+
     position: relative;
     background-color: #fff;
     width: 25vw;
@@ -28,7 +28,7 @@
     box-sizing: border-box;
     overflow: hidden;
     top: 80px;
->>>>>>> 4d9dd1dac6a5585494179daa9cd29efade7ba20c
+
 }
 
 .login_signUp_toggle {
