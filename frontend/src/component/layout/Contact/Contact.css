@@ -4,53 +4,22 @@
   max-width: 100%;
   display: grid;
   place-items: center;
-  background-color: rgb(250, 225, 235);
+  background-color: rgb(250,225,235);
   position: fixed;
-
-}
-.abbr {
-    text-decoration: none;
 }
 .mailBtn {
   text-decoration: none;
   transform: translateX(-100vw);
   animation: mailBtnAnimation 2s forwards;
 }
-
 .mailBtn > button {
   text-decoration: none;
   font: 200 2vmax "Roboto";
   cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
   padding: 2vmax;
 }
-
-.contactBtn {
-  text-decoration: none;
-  transform: translateX(-100vw);
-  animation: mailBtnAnimation 2s forwards;
-}
-
-.contactBtn > button {
-  text-decoration: none;
-  font: 200 2vmax "Roboto";
-  cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
-  padding: 2vmax;
-}
-
-
-.MuiButton-root {
-  font-size: 1.875rem;
-}
-
 @keyframes mailBtnAnimation {
   to {
     transform: translateX(0);
   }
 }
-
-/*.contactno{
-  position: relative;
-  bottom:20vw;
-  color:#575454;
-}
-*/
