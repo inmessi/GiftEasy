@@ -8,8 +8,8 @@ const Contact = () => {
     <div className="contactContainer">
       <a className="mailBtn" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNqLMmkVvSMwrdnQwlvXVpzFdpDXfFlKzbxLvxxtLJSDHKrwfMLwpxvdphxvCkddWMhmjV">
         <Button>Email address: csuddhasil@gmail.com</Button><br/>
-        <Button>  Contact Number: 9874835785</Button>
       </a>
+      <Button className="contactBtn">Contact Number: 9874835785</Button>
    </div>
       </body>
   );
