@@ -41,7 +41,6 @@ import UpdateUser from "./component/Admin/UpdateUser";
 import ProductReviews from "./component/Admin/ProductReviews";
 import Contact from "./component/layout/Contact/Contact";
 import About from "./component/layout/About/About";
-import NotFound from "./component/layout/Not Found/NotFound";
 
 function App() {
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -176,12 +175,6 @@ function App() {
           path="/admin/reviews"
           isAdmin={true}
           component={ProductReviews}
-        />
-
-        <Route
-          component={
-            window.location.pathname === "/process/payment" ? null : NotFound
-          }
         />
       </Switch>
 
