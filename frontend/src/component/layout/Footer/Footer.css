@@ -71,3 +71,11 @@ footer {
 .rightFooter > a:hover {
   color: #eb4034;
 }
+
+#contacttosell{
+  color: #eb4034;
+}
+
+#contacttosell:hover{
+  color: #f18f88;
+}

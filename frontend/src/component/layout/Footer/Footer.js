@@ -14,6 +14,7 @@ const Footer = () => {
       </div>
 
       <div className="midFooter">
+        <h4>Want to sell your product on GiftEasy? <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNqLMmkVvSMwrdnQwlvXVpzFdpDXfFlKzbxLvxxtLJSDHKrwfMLwpxvdphxvCkddWMhmjV" id="contacttosell">Contact Us</a></h4>
         <h1>GiftEasy</h1>
         <p>High Quality is our first priority</p>
 
